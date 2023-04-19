@@ -1,7 +1,7 @@
 import { Configuration, OpenAIApi } from "openai";
 const configuration = new Configuration({
     organization: "org-e3bH006RqIJewGofzKDFTQaV",
-    apiKey: process.env.OPENAI_API_KEY || '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',
+    apiKey: process.env.OPENAI_API_KEY || 'sk-',
 });
 const openai = new OpenAIApi(configuration);
 const completion = await openai.createChatCompletion({
