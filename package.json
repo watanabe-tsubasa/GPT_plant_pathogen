@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "openai": "^3.2.1"
+  },
+  "name": "gpt_plant_pathogen",
+  "description": "��#\u0000 \u0000G\u0000P\u0000T\u0000_\u0000p\u0000l\u0000a\u0000n\u0000t\u0000_\u0000p\u0000a\u0000t\u0000h\u0000o\u0000g\u0000e\u0000n\u0000\r\u0000 \u0000",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/watanabe-tsubasa/GPT_plant_pathogen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/watanabe-tsubasa/GPT_plant_pathogen/issues"
+  },
+  "homepage": "https://github.com/watanabe-tsubasa/GPT_plant_pathogen#readme",
+  "type": "module"
+}
