@@ -1,3 +1,4 @@
+import { Configuration } from "openai";
 import * as dotenv from "dotenv";
 dotenv.config();
 
@@ -7,4 +8,10 @@ const lineConfig = {
   channelAccessToken: process.env.CHANEL_ACCESS_TOKEN || '作成したBOTのチャネルアクセストークン'
 };
 
-export { lineConfig }
+// chatGPT
+const gptConfig = new Configuration({
+    organization: process.env.OPENAI_ORGANIZATION || "調べてコピペ",
+    apiKey: process.env.OPENAI_API_KEY || 'バレないようにコピペ',
+});
+
+export { lineConfig, gptConfig }
