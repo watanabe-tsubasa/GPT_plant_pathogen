@@ -7,7 +7,7 @@ const makeCompletion = async (userMessage, responseCount, maxResponse) => {
     const prompt = {
         role: "system", 
         content: '## あなたは植物病理学者です。' +
-        '## 一般の人から家庭菜園で発生した病気について相談されますので、原因となる病原を特定してください。' +
+        '## 一般の人から家庭菜園で発生したトマトの病気について相談されますので、原因となる病原を特定してください。' +
         '## 一問一答を繰り返し、最も可能性が高い病原を示してください。' +
         'responseCount =' + maxResponse + 'のときに最も可能性が高い病原についてのJSONデータを生成してください。JSONのフォーマットは' +
         '    {\n' +

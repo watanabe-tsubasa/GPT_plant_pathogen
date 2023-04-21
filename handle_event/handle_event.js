@@ -7,7 +7,7 @@ const handleEvent = async (e) => {
     return Promise.resolve(null);
     }
 
-    const maxResponse = 2 // response回数
+    const maxResponse = 3 // response回数
 
     const userId = e.source.userId;
     const sendMessage = {
