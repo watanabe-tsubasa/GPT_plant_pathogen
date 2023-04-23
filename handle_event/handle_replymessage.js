@@ -14,7 +14,7 @@ const handleReplyMessage = async (replyToken, userId, responseCount, maxResponse
         await client.replyMessage(replyToken,[
             {        
                 type: 'text',
-                text: `結果です。${result.diagnosis}の可能性が高そうです。原因は${result.pathogen}という病原です。${result.symptons}という症状が特徴的で、予防方法は${result.prevention}です。`
+                text: `結果です。${result.diagnosis}の可能性が高そうです。原因は${result.pathogen}という病原です。${result.symptoms}という症状が特徴的で、予防方法は${result.prevention}です。`
             }
         ]);
         await client.pushMessage(userId, [
